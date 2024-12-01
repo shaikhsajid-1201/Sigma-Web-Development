@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Forms</title>
+</head>
+<body>
+    <h1>Forms and Inputs Types - HTML</h1>
+    <form action="post">
+        <div>
+            <label for="Username">Username</label>
+            <input id="Username" type="text" name="Username" placeholder="Enter your Username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your Password">
+        </div>
+        <div>
+            <input id="male" type="radio" name="gender"  value="male">
+            <label for="male">male</label>
+            <input id="female" type="radio" name="gender"  value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="privacy_policy" id="privacy_policy_checker" value="Yes">
+            <label for="privacy_policy_checker">Accept Privacy & Policy to continue</label>
+        </div>
+        <div>
+            <input type="reset" name="reset" id="reset">
+        </div>
+        <div>
+            <input type="color" name="color" id="color">
+        </div>
+        <div>
+            <input type="datetime-local" name="datetime-local" id="datetime-local">
+            <input type="datetime" name="datetime" id="datetime">
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <textarea name="comment" rows="8" cols="60" placeholder="Drop a beautiful comment"></textarea>
+        </div>
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+                <option value="cherry">Strawberry</option>
+                <option value="cherry">Pineapple</option>
+          </select>
+        </div>
+    </form>
+</body>
+</html>
