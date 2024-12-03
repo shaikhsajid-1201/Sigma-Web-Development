@@ -1,0 +1,11 @@
+.bg-red {
+    background-color: red;
+    height: 20vh;
+    width: 50vw;
+}
+
+#FirstDiv {
+    color: white;
+    align-content: center;
+    text-align: center;
+}
