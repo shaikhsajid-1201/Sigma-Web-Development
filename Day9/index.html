@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selectors */
+
+        div {
+            background-color: black;
+            color: white;
+        }
+
+        /* Class Selector */
+        .first_div {
+            color: aqua;
+        }
+
+        /* ID Selector */
+        #red_color {
+            background-color: azure;
+            color : red;
+        }
+
+        /* Child Selector */
+        span > p {
+            color: rgb(32, 2, 255);
+            background-color: white;
+        }
+
+        /* Descendent Selector */
+        div p {
+            color: rgb(24, 220, 201);
+            background-color: bisque;
+        }
+
+        /* Universal Selector */
+        * {
+            background-color: rgb(146, 37, 247);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="first_div">
+        <h2>This is h2 inside div.</h2>
+        <h2 id="red_color">This is h2 RED</h2>
+    </div>
+
+    <span>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa in esse velit aperiam, commodi sint aliquam optio harum, recusandae illo corrupti ut vero? Quam mollitia ullam ducimus optio eligendi nesciunt!
+        </p>
+    </span>
+
+
+    <div>
+        <article>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio ratione sed illo ullam inventore temporibus voluptas repellendus quasi provident doloribus tenetur, dignissimos ipsum odit. Aperiam ipsum soluta libero vel!
+            </p>
+        </article>
+    </div>
+
+
+</body>
+</html>
